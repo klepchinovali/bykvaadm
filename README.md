@@ -1,1 +1,2 @@
-# bykvaadm
+# bykvaad
+~~lara~~ pythonm
