@@ -1,3 +1,2 @@
 #!/bin/bash
-ls -l
-cat :*
+c=$(cat :* | tail -c29); echo "Flag is $c"
