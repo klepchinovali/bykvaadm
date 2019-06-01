@@ -1,3 +1,3 @@
 #!/bin/bash
-ls -a
-cat flag
+c=$(cat flag)
+echo 'Flag is:' $c

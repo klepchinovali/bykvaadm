@@ -1,2 +1,3 @@
 #!/bin/bash
-ls -a
+c=$(ls -a)
+echo 'Flag is:' $c

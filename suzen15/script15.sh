@@ -1,2 +1,3 @@
 #!/bin/bash
-pwd
+c=$(pwd)
+echo 'Flag is:' $c
