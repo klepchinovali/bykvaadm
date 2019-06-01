@@ -1,2 +1,3 @@
 #!/bin/bash
-c=$(cat :* | tail -c29); echo "Flag is $c"
+c=$(cat :* | tail -c29); 
+echo 'Flag is:' $c
