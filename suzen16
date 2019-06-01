@@ -1,2 +1,3 @@
 #!/bin/bash
-id
+c=$(id)
+echo 'Flag is:' $c
