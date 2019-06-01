@@ -1,5 +1,4 @@
 FROM debian
-ADD debian.list /etc/apt/sources.list.d/
 RUN apt-get update && apt-get -y upgrade && apt -y install nginx && apt-get clean && \
     cd /var/www/ && rm -rf ./* && \
     mkdir -p klepchinovali.com/img && \
